@@ -11,21 +11,21 @@
     "href": "index.html",
     "title": "Cynthia Du",
     "section": "",
-    "text": "Description. Download My Resume"
+    "text": "Description. Download my resume!"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Cynthia Du",
     "section": "Education",
-    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+    "text": "Education\nUniversity of California, Los Angeles | Los Angeles, CA\nB.S. Statistics and Data Science, B.S. Cognitive Science with Specialization in Computing | Sept 2022 - March 2026"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Cynthia Du",
     "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+    "text": "Experience\nTraceGains | Data and AI Associate | October 2024 - present\nTraceGains | Data Analyst Intern | June 2024 - September 2024"
   },
   {
     "objectID": "projects.html",
@@ -33,5 +33,26 @@
     "title": "Projects",
     "section": "",
     "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMar 5, 2025\n\n\nProject 1\n\n\nCynthia Du\n\n\n\n\nMar 5, 2025\n\n\nProject 2\n\n\nCynthia Du\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "clubexperience.html#dataresolutions-at-ucla-datares",
+    "href": "clubexperience.html#dataresolutions-at-ucla-datares",
+    "title": "Club Experience",
+    "section": "DataResolutions at UCLA (DataRes)",
+    "text": "DataResolutions at UCLA (DataRes)\n\nDataTeach Head\n\n\nDataBlog Journalist"
+  },
+  {
+    "objectID": "clubexperience.html#taiwanese-american-student-association-tasa",
+    "href": "clubexperience.html#taiwanese-american-student-association-tasa",
+    "title": "Club Experience",
+    "section": "Taiwanese American Student Association (TASA)",
+    "text": "Taiwanese American Student Association (TASA)\n\nPresident\n\n\nFinance Director\n\n\nFinance Chair"
+  },
+  {
+    "objectID": "clubexperience.html",
+    "href": "clubexperience.html",
+    "title": "Club Experience",
+    "section": "",
+    "text": "The Data Science Union (DSU)\n\nExternal Project Lead\n\n\nData Analyst\n\n\n\nDataResolutions at UCLA (DataRes)\n\nDataTeach Head\n\n\nDataBlog Journalist\n\n\n\nTaiwanese American Student Association (TASA)\n\nPresident\n\n\nFinance Director\n\n\nFinance Chair"
   }
 ]
