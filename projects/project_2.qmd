@@ -1,0 +1,6 @@
+---
+title: "Project 2"
+author: "Cynthia Du"
+date: "03/05/2025"
+---
+

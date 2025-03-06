@@ -1,0 +1,10 @@
+---
+title: "Projects"
+listing:
+  type: table
+  contents:
+    - "projects/*.qmd"
+    - "lab-notes/*reports.qmd"
+---
+
+
