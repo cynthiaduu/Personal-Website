@@ -30,3 +30,17 @@ toc: true
 • Analyze and clean extensive high school textbook data, creating visualizations of usage patterns and engagement metrics and their correlation with learning, leading to targeted improvements in 3 out of 10 chapters and enhanced learning outcomes
 
 • Conduct exploratory data analysis on student motivation from chapter surveys to understand engagement and learning trends, highlighting motivation as a crucial indicator of learning and identifying solutions for declining motivation
+
+## UCLA Work Experience
+
+#### UCLA Residential Life \| Lead Resident Assistant \| September 2024 - present
+
+• Assist new RA's in navigating the role and responding to conflicts and medical emergencies
+
+• Organize team bonding activities to better communication within the team and foster a supportive environment where RAs can rely on each other. 
+
+#### UCLA Residential Life \| Resident Assistant \| September 2023 - present
+
+• Support a floor of 90 residents academically, socially, and emotionally through active and passive programming, active listening, conflict mediation, and referrals to appropriate resources
+
+• Provide a safe environment for students by responding to incidents and medical emergencies, and documenting reports to address resident needs and concerns promptly and effectively
