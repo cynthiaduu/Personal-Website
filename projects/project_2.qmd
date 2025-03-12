@@ -32,5 +32,4 @@ Random Forest is a supervised learning algorithm widely used for both classifica
 
 #### Conclusion
 
-Overall, the Long Short Term Memory model has proven highly effective at predicting bluffing where other models failed. Across multiple models, decision time has proven useful in predicting whether of not a player is bluffing. These results should prove useful both in justifying the inclusion of decision time in future statistical models, and poker simulations.
-
+Overall, our model achieved a high accuracy of 0.997 in predicting obesity status, demonstrating the effectiveness of the Random Forest model in this context. However, we acknowledge some limitations in our approach that may have impacted the model's performance. For example, during data cleaning, missing values were imputed using median and mode imputation, which assumes that the underlying data distributions are normal. While this method allowed us to handle missing data efficiently, it may have introduced biases or affected the predictive power of certain variables. Additionally, our assumptions about how the observations were gathered and the relationships between predictors could limit the model’s generalizability to different populations or datasets.
