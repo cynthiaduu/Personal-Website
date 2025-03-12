@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Cynthia Du">
-<meta name="dcterms.date" content="2025-03-05">
+<meta name="dcterms.date" content="2024-11-27">
 
-<title>Cynthia Du - Project 2</title>
+<title>Cynthia Du - Predicting Obesity Status</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -95,6 +95,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../projects.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../clubexperience.html" rel="" target="">
+ <span class="menu-text">Club Experience</span></a>
+  </li>  
 </ul>
             <div class="quarto-navbar-tools">
 </div>
@@ -114,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Project 2</h1>
+<h1 class="title">Predicting Obesity Status</h1>
 </div>
 
 
@@ -131,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 5, 2025</p>
+      <p class="date">November 27, 2024</p>
     </div>
   </div>
   
@@ -141,8 +145,29 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>Download the presentation <a href="predictingobesity.pdf">here</a></p>
+<p>Download the report <a href="obesity_report.pdf">here</a></p>
+<section id="project-overview" class="level4">
+<h4 class="anchored" data-anchor-id="project-overview">Project Overview</h4>
+<p>Obesity is a chronic disease that happens when an individual has an abnormally excessive amount of body fat. This disease poses significant risks for other life threatening illnesses such as hypertension, cardiovascular diseases, diabetes, cancer, and various musculoskeletal disorders. It is a major global health issue, especially in the US, with obesity rates steadily increasing over the past few decades. Early detection and prevention of obesity can mitigate these health risks and improve overall public health. However, in order to identify individuals at risk of obesity, we must analyze the interactions between demographic, lifestyle, and health-related factors.</p>
+<p>Our project focused on exploring a dataset with lifestyle, demographic, and health-related attributes to leverage predictive modeling techniques to predict obesity. The training dataset includes 32,014 entries with variables such as age, gender, dietary habits, physical activity levels, biometric measurements, and obesity status. The testing dataset includes 10672 entries with all the same variables as the training dataset, except obesity status. Our report will detail how we built our classification model spanning from EDA to data cleaning to variable and model selection to a discussion of our results and limitations.</p>
+<p>After investigating machine learning models such as logistic regression, decision trees, and random forests we evaluated the performance of these models and concluded that the random forest model was best. Ultimately we ended with a kaggle score of 0.997 and rank 15.</p>
+</section>
+<section id="models-used" class="level4">
+<h4 class="anchored" data-anchor-id="models-used">Models Used</h4>
+<p><strong>Logistic Regression</strong></p>
+<p>Logistic regression is used for modeling the relationship between a binary dependent variable and one or more independent variables. This makes it particularly suitable for classification problems, such as predicting whether an individual is obese. One of its strengths is its simplicity and interpretability, as the coefficients provide insights into how each predictor affects the likelihood of the outcome.</p>
+<p><strong>Linear Discriminant Analysis - LDA</strong></p>
+<p>Linear Discriminant Analysis is a classification algorithm that performs dimensionality reduction while maximizing class separability. In this project, we used LDA with 10-fold cross-validation to predict obesity based on the following selected features: “Cholesterol”, “CH2O”, “FCVC”, “family_history_with_overweight”, “CAEC”, and “FAVC”. The 10-fold cross-validation was used to evaluate the models performance and ensure stronger results.</p>
+<p><strong>Random Forest</strong></p>
+<p>Random Forest is a supervised learning algorithm widely used for both classification and regression tasks. It operates by constructing multiple decision trees during training and aggregating their predictions to produce a final result, typically based on majority voting or averaging. We chose the Random Forest model for its accuracy and efficiency. To refine it, we identified the top ten predictors, including height, race, age, physical activity frequency (FAF), caloric intake (CALC), and the number of meals per day (NCP), using feature importance metrics and visual analysis.</p>
+</section>
+<section id="conclusion" class="level4">
+<h4 class="anchored" data-anchor-id="conclusion">Conclusion</h4>
+<p>Overall, the Long Short Term Memory model has proven highly effective at predicting bluffing where other models failed. Across multiple models, decision time has proven useful in predicting whether of not a player is bluffing. These results should prove useful both in justifying the inclusion of decision time in future statistical models, and poker simulations.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

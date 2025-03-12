@@ -6,20 +6,46 @@ title: "Club Experience"
 
 #### External Project Lead
 
+Led a group of 8 undergraduate data scientists in completing a project about private company valuation using AI. Our client is a M&A advisory platform that helps companies sell their business, so we created a script to automate the valuation process for our client.
+
+![Tech Investment Bank Client Project](DSU_External_Project.pdf){width="640px" height="480px"}
+
 #### Data Analyst
+
+Performed Stock Price Anomaly Detection and Forecasting using a Hidden Markov Model, STL Decomposition, and ARIMA forecasting, training the model on stock data from July 2024 to the end of September 2024.
+
+![Stock Price Anomaly Detection and Forecasting](curriculum_project.pdf){width="640px" height="480px"}
 
 ### DataResolutions at UCLA (DataRes)
 
-#### DataTeach Head
+#### Director of DataTeach
 
+DataTeach is a committee dedicated towards teaching high schoolers data science. I reconstructed the committee after overseeing recruitment, outreach, and curriculum development. Created a comprehensive 8-week curriculum on Jupyter notebook and pioneered a YouTube series as supplement. Also hosted a Computer Vision workshop for the broader UCLA community
+
+Check out the YouTube channel [here](https://www.youtube.com/@DataTeachatUCLA/playlists)
+
+![Computer Vision Workshop](computer_vision.pdf){width="640px" height="480px"}
 
 #### DataBlog Journalist
 
+[Analyzing Longevity Across the World](https://ucladatares.medium.com/analyzing-longevity-across-the-world-42d43e992866)
+
+This project involves using a random forest model to predict longevity and its influential features. We analyzed the relationship between aspects of different countries (CO2 emissions, healthcare spending, GDP, etc) and their corresponding life expectancies.
+
+[What Are Successful Spotify Songs Made Of?](https://ucladatares.medium.com/what-are-successful-spotify-songs-made-of-3571bee2f510)
+
+Project exploring the songs that are successful on Spotify and what the common trends are between them.
 
 ### Taiwanese American Student Association (TASA)
 
-#### President
-
 #### Finance Director
 
+• Oversee 2 finance chairs to spearhead finance procedures, raising \$10k+ for yearly events and operations for 200+ students
+
+• Pioneered new system to effectively track expenses, allocations, reimbursements, and funding applications to minimize expenses by \~\$150 per event, manufactured database and search system to reduce manual form input time by 40%
+
 #### Finance Chair
+
+• Oversee all financial operations, fill out funding applications to secure funding for TASA events • Created system to effectively track expenses, allocations, and reimbursements for all board members to better organize TASA’s finances and minimize expenses; manage TASA Venmo account and bank
+
+• Develop budgets for various events, collaborate with executive team to ensure all events are executed within budget
