@@ -15,7 +15,9 @@ toc: true
 
 #### TraceGains \| Data Analyst Intern \| June 2024 - September 2024
 
-• Improved supplier location and item mapping accuracy by 60% on 80k+ supplier data with 550k+ ingredients using NLP, PyTorch, and MiniLM BERT models, thus reducing manual data sorting time by 85% • Optimized supplier data processing, achieving a 262% increase in high-quality matches and a 99% reduction in NULL matches, and developed 2000+ new categories to enhance operational metric tracking
+• Improved supplier location and item mapping accuracy by 60% on 80k+ supplier data with 550k+ ingredients using NLP, PyTorch, and MiniLM BERT models, thus reducing manual data sorting time by 85%
+
+• Optimized supplier data processing, achieving a 262% increase in high-quality matches and a 99% reduction in NULL matches, and developed 2000+ new categories to enhance operational metric tracking
 
 #### IBM \| IBM Accelerate Client Engineering + Technical Sales \| May 2024 - July 2024
 
