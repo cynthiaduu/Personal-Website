@@ -4,7 +4,7 @@ author: "Cynthia Du"
 date: "March 10, 2025"
 ---
 
-Download the presentation [here](140XP%20Final%20Project%20Slides(1).pdf)
+Download the presentation [here](poker_bluff_prediction.pdf)
 
 #### Project Overview
 
