@@ -5,6 +5,15 @@ toc: true
 
 ## Work Experience
 
+#### Workday \| Data Science Intern \| June 2025 - present
+
+• Designed a Tableau dashboard for the President of Product & Technology and 20+ PMs to track task coverage across thousands of software tasks. Integrated 1B+ records from three SQL sources to flag tracked, untracked, and high-priority tasks based on user activity and transactions, enabling targeted improvements to increase software coverage
+
+•	Automated multi-API data extraction in Python, pulling 100K+ JSON records and cutting manual effort by 90%, then reformatting and integrating data into existing datasets to expand model training data by 3x
+
+•	Built logistic regression (with WoE binning) and XGBoost (with PCA) models to predict website findability, performing extensive feature engineering and target variable testing to boost accuracy by 25% and inform UX improvements
+
+
 #### TraceGains \| Data and AI Associate \| October 2024 - present
 
 • Created an AI-powered system that improves customer modules by identifying risks in real time and generating user alerts
