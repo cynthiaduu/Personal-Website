@@ -14,9 +14,22 @@ This project aims to discover whether there are any discernible categories of ba
 
 #### Unsupervised Clustering
 
-Conducted dimensionality reduction using Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), UMAP, and t-SNE and applied 4 clustering models: K-Means Clustering, Gaussian Mixture Models, Agglomerative Clustering, and DBScan. The goal of the unsupervised learning was to identify how many cry types/clusters exist in the data based on acoustic features, and see if these clusters would map well to the parent labels. We also wanted to explore which cry type was the most separable and unique. 
+Our goal with unsupervised learning was to explore whether baby cries could be grouped into distinct categories based only on their acoustic features, without using any parent labels.
+
+We started by cleaning the dataset, removing non-informative columns like ID, sample info, and duplicate percentiles. We transformed variables like 20th and 80th percentiles into range measures and standardized all features for comparability.
+
+We conducted dimensionality reduction using Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), UMAP, and t-SNE and applied 4 clustering models: K-Means Clustering, Gaussian Mixture Models, Agglomerative Clustering, and DBScan. 
+
+Using Principal Component Analysis, we found that 13 principal components were enough to explain 95% of the variance in cry acoustics, even though we started with 25+ raw features
+
+Unlike KMeans, which assumes hard, equally-shaped clusters, GMM allows for soft assignment, which means that a point belongs to each cluster with a probability, and allows for clusters with different shapes, sizes, and orientations. This was important for our cry data because some cries might share acoustic patterns, and clusters might overlap. Thus, GMM is better suited for modeling ambiguous or overlapping cry types and gave us clearer insights into which cry types were most separable.
 
 #### Supervised Learning
 
-The models used were: K-Nearest Neighbors, Random Forest, Multinomial Regression, Support Vector Machine, and XGBoost. Using the 5 parent labels to predict cry types, the cross-validated accuracy was highest with XGBoost at 63%. From there, we tried using the cluster labels and found that they performed significantly better, with the highest accuracy being 98.56% with Random Forest.  
+The models used were: K-Nearest Neighbors, Random Forest, Multinomial Regression, Support Vector Machine, and XGBoost. 
+
+We also wanted to test whether including demographic variables, age and gender, would improve our model’s ability to predict the reason for infant cries. Using parent labels, adding demographic information did not move the needle with accuracy
+Using cluster labels with 3 categories, adding demographic information did improve accuracy slightly. While the improvement was small, it suggests that age and gender contribute some predictive signal.
+
+Using the 5 parent labels to predict cry types, the cross-validated accuracy was highest with XGBoost at 63%. From there, we tried using the cluster labels and found that they performed significantly better, with the highest accuracy being 98.56% with Random Forest.  
 
