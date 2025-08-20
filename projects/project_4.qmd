@@ -1,0 +1,22 @@
+---
+title: "Baby Cry Types"
+author: "Cynthia Du"
+date: "June 9, 2025"
+---
+
+Download the presentation [here](babycrytypes.pdf)
+
+#### Project Overview
+
+It has been claimed that babies cry uniquely for any and every reason, including diaper changes and hunger. In this project, we investigated whether 5 different baby cry samples were acoustically distinct. 1250 observations were collected on an application that records audio files of baby cries. Parents were then asked to label the type of cry based on their best judgement.
+
+This project aims to discover whether there are any discernible categories of baby cries based on the recorded audio data.After an exploration of the demographic population of the babies, our team used unsupervised learning to discover how many cry types exist in the data given the acoustic features. Then, supervised learning was performed given the parent labels to find cross-validated accuracy.
+
+#### Unsupervised Clustering
+
+Conducted dimensionality reduction using Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), UMAP, and t-SNE and applied 4 clustering models: K-Means Clustering, Gaussian Mixture Models, Agglomerative Clustering, and DBScan. The goal of the unsupervised learning was to identify how many cry types/clusters exist in the data based on acoustic features, and see if these clusters would map well to the parent labels. We also wanted to explore which cry type was the most separable and unique. 
+
+#### Supervised Learning
+
+The models used were: K-Nearest Neighbors, Random Forest, Multinomial Regression, Support Vector Machine, and XGBoost. Using the 5 parent labels to predict cry types, the cross-validated accuracy was highest with XGBoost at 63%. From there, we tried using the cluster labels and found that they performed significantly better, with the highest accuracy being 98.56% with Random Forest.  
+
